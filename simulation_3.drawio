@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T09:37:29.910Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OXJ3vNRmChXu5ciUA8iK" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T09:41:57.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="b2OH0CNlErSfM0rn0BzK" version="21.5.0" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1050" dy="1638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="750" dy="1484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,7 +155,7 @@
             <mxPoint x="290" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UIwxRU3X0R6D5jwhxc5C-46" value="asel = ALUA_REG&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;bsel = ALUB_IMM&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;alusel = ALU_ADD&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UIwxRU3X0R6D5jwhxc5C-46" value="asel = ALUA_REG&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;bsel = ALUB_IMM&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;alusel = ALU_ADD&amp;nbsp;&lt;br&gt;immsel = IMM_S" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="245" y="660" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UIwxRU3X0R6D5jwhxc5C-48" value="LW_MEM" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -328,6 +328,9 @@
             <mxPoint x="180" y="1030" as="sourcePoint" />
             <mxPoint x="180" y="1090" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UIwxRU3X0R6D5jwhxc5C-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.955;entryY=0.755;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UIwxRU3X0R6D5jwhxc5C-46" target="UIwxRU3X0R6D5jwhxc5C-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
